@@ -4,16 +4,17 @@ Googletrans: Free and Unlimited Google translate API for Python
 
 .. image:: https://img.shields.io/github/license/mashape/apistatus.svg
    :target: http://opensource.org/licenses/MIT
-.. image:: https://travis-ci.org/ssut/py-googletrans.svg?branch=master
-   :target: https://travis-ci.org/ssut/py-googletrans
-.. image:: https://readthedocs.org/projects/py-googletrans/badge/?version=latest
-   :target: https://readthedocs.org/projects/py-googletrans/?badge=latest
-.. image:: https://badge.fury.io/py/googletrans.svg
-   :target: http://badge.fury.io/py/googletrans
-.. image:: https://coveralls.io/repos/github/ssut/py-googletrans/badge.svg
-   :target: https://coveralls.io/github/ssut/py-googletrans
-.. image:: https://codeclimate.com/github/ssut/py-googletrans/badges/gpa.svg
-   :target: https://codeclimate.com/github/ssut/py-googletrans
+.. image:: https://travis-ci.org/poipoii/py-googletrans.svg?branch=master
+   :target: https://travis-ci.org/poipoii/py-googletrans
+.. image:: https://readthedocs.org/projects/ggtrans/badge/?version=latest
+   :target: https://readthedocs.org/projects/ggtrans/?badge=latest
+.. image:: https://badge.fury.io/py/ggtrans.svg
+   :target: http://badge.fury.io/py/ggtrans
+.. image:: https://coveralls.io/repos/github/poipoii/py-googletrans/badge.svg?branch=master
+    :target: https://coveralls.io/github/poipoii/py-googletrans?branch=master
+.. image:: https://api.codeclimate.com/v1/badges/4fdb595d019205845cc2/maintainability
+   :target: https://codeclimate.com/github/poipoii/py-googletrans/maintainability
+   :alt: Maintainability
 
 Googletrans is a **free** and **unlimited** python library that
 implemented Google Translate API. This uses the `Google Translate Ajax
