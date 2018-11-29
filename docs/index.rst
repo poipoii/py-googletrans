@@ -58,7 +58,7 @@ You can install it from PyPI_:
 
 .. sourcecode:: bash
 
-   $ pip install googletrans
+   $ pip install ggtrans
 
 .. _PyPI: https://pypi.python.org/pypi/googletrans
 
