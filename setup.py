@@ -35,14 +35,15 @@ def get_readme():
 
 def install():
     setup(
-        name='googletrans',
+        name='ggtrans',
         version=get_version(),
         description=get_description(),
         long_description=get_readme(),
+        long_description_content_type='text/markdown',
         license='MIT',
-        author='SuHun Han',
-        author_email='ssut' '@' 'ssut.me',
-        url='https://github.com/ssut/py-googletrans',
+        author='poipoii',
+        author_email='earth.sama@gmail.com',
+        url='https://github.com/poipoii/py-googletrans',
         classifiers=['Development Status :: 5 - Production/Stable',
                      'Intended Audience :: Education',
                      'Intended Audience :: End Users/Desktop',

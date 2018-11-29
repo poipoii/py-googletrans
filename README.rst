@@ -1,6 +1,10 @@
 Googletrans
 ===========
 
+Fork from `stephwag/py-googletrans <https://github.com/stephwag/py-googletrans>`__.
+
+===========
+
 |GitHub license| |travis status| |Documentation Status| |PyPI version|
 |Coverage Status| |Code Climate|
 
@@ -70,7 +74,7 @@ modules: requests and future.
 
 .. code:: bash
 
-    $ pip install googletrans
+    $ pip install ggtrans
 
 Basic Usage
 -----------
@@ -248,13 +252,14 @@ follows:
 
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg
    :target: http://opensource.org/licenses/MIT
-.. |travis status| image:: https://travis-ci.org/ssut/py-googletrans.svg?branch=master
-   :target: https://travis-ci.org/ssut/py-googletrans
-.. |Documentation Status| image:: https://readthedocs.org/projects/py-googletrans/badge/?version=latest
-   :target: https://readthedocs.org/projects/py-googletrans/?badge=latest
-.. |PyPI version| image:: https://badge.fury.io/py/googletrans.svg
-   :target: http://badge.fury.io/py/googletrans
-.. |Coverage Status| image:: https://coveralls.io/repos/github/ssut/py-googletrans/badge.svg
-   :target: https://coveralls.io/github/ssut/py-googletrans
-.. |Code Climate| image:: https://codeclimate.com/github/ssut/py-googletrans/badges/gpa.svg
-   :target: https://codeclimate.com/github/ssut/py-googletrans
+.. |travis status| image:: https://travis-ci.org/poipoii/py-googletrans.svg?branch=master
+   :target: https://travis-ci.org/poipoii/py-googletrans
+.. |Documentation Status| image:: https://readthedocs.org/projects/ggtrans/badge/?version=latest
+   :target: https://readthedocs.org/projects/ggtrans/?badge=latest
+.. |PyPI version| image:: https://badge.fury.io/py/ggtrans.svg
+   :target: http://badge.fury.io/py/ggtrans
+.. |Coverage Status| image:: https://coveralls.io/repos/github/poipoii/py-googletrans/badge.svg?branch=master
+    :target: https://coveralls.io/github/poipoii/py-googletrans?branch=master
+.. |Code Climate| image:: https://api.codeclimate.com/v1/badges/4fdb595d019205845cc2/maintainability
+   :target: https://codeclimate.com/github/poipoii/py-googletrans/maintainability
+   :alt: Maintainability
