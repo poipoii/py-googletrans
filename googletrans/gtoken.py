@@ -150,26 +150,26 @@ class TokenAcquirer(object):
         g = 0
         size = len(text)
         for i, char in enumerate(text):
-            l = ord(char)
-            # just append if l is less than 128(ascii: DEL)
-            if l < 128:
-                e.append(l)
-            # append calculated value if l is less than 2048
+            ul = ord(char)
+            # just append if ul is less than 128(ascii: DEL)
+            if ul < 128:
+                e.append(ul)
+            # append calculated value if ul is less than 2048
             else:
-                if l < 2048:
-                    e.append(l >> 6 | 192)
+                if ul < 2048:
+                    e.append(ul >> 6 | 192)
                 else:
-                    # append calculated value if l matches special condition
-                    if (l & 64512) == 55296 and g + 1 < size and \
+                    # append calculated value if ul matches special condition
+                    if (ul & 64512) == 55296 and g + 1 < size and \
                             ord(text[g + 1]) & 64512 == 56320:
                         g += 1
-                        l = 65536 + ((l & 1023) << 10) + ord(text[g]) & 1023
-                        e.append(l >> 18 | 240)
-                        e.append(l >> 12 & 63 | 128)
+                        ul = 65536 + ((ul & 1023) << 10) + ord(text[g]) & 1023
+                        e.append(ul >> 18 | 240)
+                        e.append(ul >> 12 & 63 | 128)
                     else:
-                        e.append(l >> 12 | 224)
-                    e.append(l >> 6 & 63 | 128)
-                e.append(l & 63 | 128)
+                        e.append(ul >> 12 | 224)
+                    e.append(ul >> 6 & 63 | 128)
+                e.append(ul & 63 | 128)
         a = b
         for i, value in enumerate(e):
             a += value
