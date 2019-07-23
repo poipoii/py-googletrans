@@ -87,7 +87,7 @@ def test_detect_list(translator):
 
 
 def test_src_in_special_cases(translator):
-    args = ('Tere', 'en', 'ee')
+    args = ('Tere,', 'en', 'ee')
 
     result = translator.translate(*args)
 
