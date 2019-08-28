@@ -21,8 +21,8 @@ class Translated(object):
     def __unicode__(self):  # pragma: nocover
         return u'Translated(src={src}, dest={dest}, text={text}, pronunciation={pronunciation}, ' \
                u'extra_data={extra_data})'.format(
-                    src=self.src, dest=self.dest, text=self.text, pronunciation=self.pronunciation,
-                    extra_data='"' + repr(self.extra_data)[:10] + '..."')
+                   src=self.src, dest=self.dest, text=self.text, pronunciation=self.pronunciation,
+                   extra_data='"' + repr(self.extra_data)[:10] + '..."')
 
 
 class Detected(object):
