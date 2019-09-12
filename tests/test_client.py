@@ -91,7 +91,7 @@ def test_src_in_special_cases(translator):
 
     result = translator.translate(*args)
 
-    assert result.text == 'Hi,'
+    assert result.text == 'Hello,' or result.text == 'Hi,'
 
 
 def test_src_not_in_supported_languages(translator):
