@@ -252,8 +252,8 @@ follows:
 
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg
    :target: http://opensource.org/licenses/MIT
-.. |travis status| image:: https://travis-ci.org/poipoii/py-googletrans.svg?branch=master
-   :target: https://travis-ci.org/poipoii/py-googletrans
+.. |travis status| image:: https://travis-ci.com/poipoii/py-googletrans.svg?branch=master
+   :target: https://travis-ci.com/poipoii/py-googletrans
 .. |Documentation Status| image:: https://readthedocs.org/projects/ggtrans/badge/?version=latest
    :target: https://readthedocs.org/projects/ggtrans/?badge=latest
 .. |PyPI version| image:: https://badge.fury.io/py/ggtrans.svg
