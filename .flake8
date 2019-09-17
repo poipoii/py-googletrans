@@ -1,0 +1,12 @@
+[flake8]
+ignore = E501,W606
+exclude =
+    test.py,
+    .git,
+    .tox,
+    venv,
+    docs,
+    build,
+    dist,
+    googletrans/__init__.py
+max-complexity = 10

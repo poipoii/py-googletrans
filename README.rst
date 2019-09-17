@@ -5,7 +5,7 @@ Fork from `stephwag/py-googletrans <https://github.com/stephwag/py-googletrans>`
 
 ===========
 
-|GitHub license| |travis status| |Documentation Status| |PyPI version|
+|GitHub license| |travis status| |Documentation Status| |PyPI version| |Python Version|
 |Coverage Status| |Code Climate|
 
 Googletrans is a **free** and **unlimited** python library that
@@ -251,13 +251,16 @@ follows:
     SOFTWARE.
 
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg
-   :target: http://opensource.org/licenses/MIT
+   :target: https://opensource.org/licenses/MIT
 .. |travis status| image:: https://travis-ci.com/poipoii/py-googletrans.svg?branch=master
    :target: https://travis-ci.com/poipoii/py-googletrans
 .. |Documentation Status| image:: https://readthedocs.org/projects/ggtrans/badge/?version=latest
    :target: https://readthedocs.org/projects/ggtrans/?badge=latest
 .. |PyPI version| image:: https://badge.fury.io/py/ggtrans.svg
-   :target: http://badge.fury.io/py/ggtrans
+   :target: https://badge.fury.io/py/ggtrans
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/ggtrans
+   :target: https://pypi.org/project/ggtrans/
+   :alt: PyPI - Python Version
 .. |Coverage Status| image:: https://coveralls.io/repos/github/poipoii/py-googletrans/badge.svg?branch=master
     :target: https://coveralls.io/github/poipoii/py-googletrans?branch=master
 .. |Code Climate| image:: https://api.codeclimate.com/v1/badges/4fdb595d019205845cc2/maintainability

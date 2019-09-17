@@ -39,7 +39,6 @@ def install():
         version=get_version(),
         description=get_description(),
         long_description=get_readme(),
-        long_description_content_type='text/markdown',
         license='MIT',
         author='poipoii',
         author_email='earth.sama@gmail.com',
