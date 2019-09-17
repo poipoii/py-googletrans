@@ -6,7 +6,7 @@ Fork from `stephwag/py-googletrans <https://github.com/stephwag/py-googletrans>`
 ===========
 
 |GitHub license| |travis status| |Documentation Status| |PyPI version| |Python Version|
-|Coverage Status| |Code Climate|
+|Known Vulnerabilities| |Coverage Status| |Code Climate|
 
 Googletrans is a **free** and **unlimited** python library that
 implemented Google Translate API. This uses the `Google Translate Ajax
@@ -266,3 +266,6 @@ follows:
 .. |Code Climate| image:: https://api.codeclimate.com/v1/badges/4fdb595d019205845cc2/maintainability
    :target: https://codeclimate.com/github/poipoii/py-googletrans/maintainability
    :alt: Maintainability
+.. |Known Vulnerabilities| image:: https://snyk.io/test/github/poipoii/py-googletrans/badge.svg
+   :target: https://snyk.io/test/github/poipoii/py-googletrans
+   :alt: Known Vulnerabilities
